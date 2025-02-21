@@ -1,0 +1,17 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.todostatus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0d0d0d;
+  text-transform: uppercase;
+}
